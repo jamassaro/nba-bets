@@ -47,6 +47,8 @@ align-items: center;
 grid-area: footer;
 background-color: #C9082A;
 text-align: center;
+color: white;
+
 
 }
 
@@ -62,5 +64,6 @@ grid-area: logo-right;
 
 .information table {
   border:  5px solid blue;
+  text-align: center;
 
 }
