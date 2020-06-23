@@ -46,6 +46,7 @@ align-items: center;
 .site-footer {
 grid-area: footer;
 background-color: #C9082A;
+text-align: center;
 
 }
 
