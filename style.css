@@ -1,12 +1,12 @@
 body {
-  font-family: Helvetica;
+  font-family: Arial;
   margin: 0;
 
 }
 
 header {
   text-align: center;
-  background-color: #C9082A;
+  background-color: black;
   color: white;
 
 }
@@ -18,10 +18,10 @@ max-height: 100%;
 h1 {
   margin: auto;
 }
-
-td {
-  text-align: left;
+h2 {
+  text-align: center;
 }
+
 
 .site {
   display: grid;
@@ -55,7 +55,7 @@ align-items: center;
 
 .site-footer {
 grid-area: footer;
-background-color: #C9082A;
+background-color: black;
 text-align: center;
 color: white;
 
@@ -101,3 +101,31 @@ grid-area: logo-right;
 
 }
 /* ranking table end */
+
+/* Resultados del dia table CSS */
+
+.site-table-rday {
+  border-collapse: collapse;
+  margin: 25px;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.site-table-rday thead tr {
+  background-color: #C9082A;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+.site-table-rday th, .site-table-rday td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.site-table-rday tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* resultados del dia table end */
