@@ -73,7 +73,7 @@ grid-area: logo-right;
 
 }
 
-/*R anking table CSS */
+/* Ranking table CSS */
 .site-table-ranking {
   border-collapse: collapse;
   margin: 25px;
@@ -100,3 +100,4 @@ grid-area: logo-right;
   border-bottom: 1px solid #dddddd;
 
 }
+/* ranking table end */
