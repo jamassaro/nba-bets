@@ -6,7 +6,7 @@ body {
 
 header {
   text-align: center;
-  background-color: black;
+  background-color: rgb(46, 109, 175);
   color: white;
 
 }
@@ -55,7 +55,7 @@ align-items: center;
 
 .site-footer {
 grid-area: footer;
-background-color: black;
+background-color: rgb(46, 109, 175);
 text-align: center;
 color: white;
 
