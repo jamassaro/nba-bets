@@ -18,6 +18,11 @@ max-height: 100%;
 h1 {
   margin: auto;
 }
+
+td {
+  text-align: left;
+}
+
 .site {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -27,6 +32,9 @@ h1 {
     'logo-left   main    logo-rigth'
     'footer      footer  footer';
   min-height: 100vh;
+
+
+
 }
 
 .site-header {
@@ -41,6 +49,8 @@ align-items: center;
   grid-area: main;
 
 
+
+
 }
 
 .site-footer {
@@ -52,6 +62,7 @@ color: white;
 
 }
 
+
 .site-logo-left {
 grid-area: logo-left;
 
@@ -62,8 +73,30 @@ grid-area: logo-right;
 
 }
 
-.information table {
-  border:  5px solid blue;
+/*R anking table CSS */
+.site-table-ranking {
+  border-collapse: collapse;
+  margin: 25px;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden; /* preguntar a alvaro porque hay que poner esto para que se vean los bordes redondos */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.site-table-ranking thead tr {
+  background-color: rgb(46, 109, 175);
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.site-table-ranking th, .site-table-ranking td {
+  padding: 12px 15px;
   text-align: center;
+}
+
+.site-table-ranking tbody tr {
+  border-bottom: 1px solid #dddddd;
 
 }
