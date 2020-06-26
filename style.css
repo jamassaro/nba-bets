@@ -1,27 +1,33 @@
 body {
   font-family: Arial;
   margin: 0;
-
 }
 
 header {
   text-align: center;
   background-color: rgb(46, 109, 175);
   color: white;
-
 }
+
 img {
 max-width: 100%;
 max-height: 100%;
-
 }
+
 h1 {
   margin: auto;
 }
+
 h2 {
   text-align: center;
+  margin-bottom: 0;
 }
 
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .site {
   display: grid;
@@ -32,45 +38,32 @@ h2 {
     'logo-left   main    logo-rigth'
     'footer      footer  footer';
   min-height: 100vh;
-
-
-
 }
 
 .site-header {
-
-grid-area: header;
-display: flex;
-align-items: center;
-
+  grid-area: header;
+  display: flex;
+  align-items: center;
 }
 
 .site-main {
   grid-area: main;
-
-
-
-
 }
 
 .site-footer {
-grid-area: footer;
-background-color: rgb(46, 109, 175);
-text-align: center;
-color: white;
-
-
+  grid-area: footer;
+  background-color: rgb(46, 109, 175);
+  text-align: center;
+  color: white;
 }
 
 
 .site-logo-left {
-grid-area: logo-left;
-
+  grid-area: logo-left;
 }
 
 .site-logo-right {
-grid-area: logo-right;
-
+  grid-area: logo-right;
 }
 
 /* Ranking table CSS */
@@ -79,13 +72,12 @@ grid-area: logo-right;
   margin: 25px;
   min-width: 400px;
   border-radius: 5px 5px 0 0;
-  overflow: hidden; /* preguntar a alvaro porque hay que poner esto para que se vean los bordes redondos */
+  overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-
 .site-table-ranking thead tr {
-  background-color: rgb(46, 109, 175);
+  background-color: #C9082A;
   color: white;
   text-align: left;
   font-weight: bold;
@@ -98,12 +90,9 @@ grid-area: logo-right;
 
 .site-table-ranking tbody tr {
   border-bottom: 1px solid #dddddd;
-
 }
 /* ranking table end */
-
 /* Resultados del dia table CSS */
-
 .site-table-rday {
   border-collapse: collapse;
   margin: 25px;
@@ -127,5 +116,32 @@ grid-area: logo-right;
 .site-table-rday tbody tr {
   border-bottom: 1px solid #dddddd;
 }
-
 /* resultados del dia table end */
+
+/* partidos del dia table */
+
+
+
+.site-table-gamedays {
+  border-collapse: collapse;
+  margin: 25px;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.site-table-gamedays thead tr {
+  background-color: #C9082A;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+.site-table-gamedays th, .site-table-gamedays td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.site-table-gamedays tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
