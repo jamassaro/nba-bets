@@ -120,8 +120,6 @@ h2 {
 
 /* partidos del dia table */
 
-
-
 .site-table-gamedays {
   border-collapse: collapse;
   margin: 25px;
@@ -145,3 +143,4 @@ h2 {
 .site-table-gamedays tbody tr {
   border-bottom: 1px solid #dddddd;
 }
+/* partidos del dia end */
