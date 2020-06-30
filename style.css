@@ -32,7 +32,7 @@ h2 {
 .site {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 5vh auto 5vh;
+  grid-template-rows: 6vh auto 5vh;
   grid-template-areas:
     'header      header  header'
     'logo-left   main    logo-rigth'
