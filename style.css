@@ -44,6 +44,26 @@ h2 {
   grid-area: header;
   display: flex;
   align-items: center;
+
+}
+
+.site-nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.site-nav ul li {
+
+  width: 200px;
+  align-items: center;
+  font-weight: bold;
+
+
+
 }
 
 .site-main {
