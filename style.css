@@ -23,6 +23,17 @@ h2 {
   margin-bottom: 0;
 }
 
+a {
+  color: white;
+  font-family: Arial;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+   cursor: pointer;
+}
+
 .information {
   display: flex;
   flex-direction: column;
