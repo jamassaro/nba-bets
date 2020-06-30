@@ -43,9 +43,15 @@ h2 {
 .site-header {
   grid-area: header;
   display: flex;
+  justify-content: center;
   align-items: center;
 
 }
+
+.site nav {
+  width: 100%;
+}
+
 
 .site-nav ul {
   margin: 0px;
@@ -53,12 +59,15 @@ h2 {
   list-style: none;
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
 
 
 }
 .site-nav ul li {
 
-  width: 200px;
+  margin-left: 5rem;
+  margin-right: 5rem;
   align-items: center;
   font-weight: bold;
 
