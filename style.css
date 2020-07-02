@@ -5,10 +5,10 @@ body {
 
 header {
   text-align: center;
-  background-color: rgb(46, 109, 175);
+  background-color: rgb(10, 10, 11);
   color: white;
 }
-
+/*rgb(46, 109, 175)*/
 img {
   max-width: 100%;
   max-height: 100%;
@@ -91,11 +91,11 @@ a:hover {
 
 .site-footer {
   grid-area: footer;
-  background-color: rgb(46, 109, 175);
+  background-color: rgb(10, 10, 11);
   text-align: center;
   color: white;
   font-weight: bold;
-  
+
 }
 
 
@@ -185,3 +185,11 @@ a:hover {
   border-bottom: 1px solid #dddddd;
 }
 /* partidos del dia end */
+
+/*login*/
+
+
+
+
+
+/*login end*/
