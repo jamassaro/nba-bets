@@ -23,6 +23,7 @@ body {
   padding: 0;
   color: #fff;
   text-align: center;
+  font-size: 50px;
 }
 
 .box .inputBox {
@@ -59,7 +60,7 @@ body {
 
   top: -18px;
   left: 0;
-  color: #03a9f4;
+  color: red;
   font-size: 12px;
 }
 
