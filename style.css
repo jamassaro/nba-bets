@@ -12,6 +12,7 @@ header {
 img {
   max-width: 100%;
   max-height: 100%;
+  margin-top: 20%;
 }
 
 h1 {
@@ -87,6 +88,7 @@ a:hover {
 
 .site-main {
   grid-area: main;
+  margin-right: 100px;
 }
 
 .site-footer {
@@ -105,6 +107,7 @@ a:hover {
 
 .site-logo-right {
   grid-area: logo-right;
+
 }
 
 /* Ranking table CSS */
