@@ -189,10 +189,41 @@ a:hover {
 }
 /* partidos del dia end */
 
-/*login*/
+/*rules*/
 
 
+/* table rules */
 
+.table-points {
+  border-collapse: collapse;
+  margin: 25px;
+  width: 500px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
 
+.table-points thead tr {
+  background-color: #C9082A;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+.table-points th, .table-points td {
+  padding: 12px 15px;
+  text-align: center;
+}
 
-/*login end*/
+.table-points tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.site-rules{
+  margin-top: 100px;
+}
+
+.information-points{
+  margin-top: 200px;
+
+}
+/*rules end*/
