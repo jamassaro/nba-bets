@@ -197,7 +197,7 @@ a:hover {
 .table-points {
   border-collapse: collapse;
   margin: 25px;
-  width: 500px;
+  width: 450px;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -217,6 +217,7 @@ a:hover {
 .table-points tbody tr {
   border-bottom: 1px solid #dddddd;
 }
+
 
 
 /*rules end*/
