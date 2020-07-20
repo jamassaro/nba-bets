@@ -204,7 +204,8 @@ a:hover {
 }
 
 .table-points thead tr {
-  background-color: #C9082A;
+  background-color: rgb(46, 109, 175);
+  /*#C9082A*/
   color: white;
   text-align: left;
   font-weight: bold;
